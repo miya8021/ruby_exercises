@@ -35,3 +35,7 @@ p array1.product(array2)
 #6:rubyで配列内の要素をソートする
 ary = [5, 6, 1, 3, 4]
 p ary.sort
+
+# 7:rubyの配列内の要素をカウントする
+ary = ["イシカワ","トウキョウ","アオモリ"]
+p ary.count
