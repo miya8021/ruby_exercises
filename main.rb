@@ -44,3 +44,7 @@ p ary.count
 ary = ["足立区","港区","豊島区","江東区"]
 p ary.take(3)
 #takeメソッド オブジェクトの先頭から n 要素を配列として返す
+
+# 9:rubyの配列内の要素を大文字で表示するの回答
+ary = ["python", "ruby", "java"]
+p ary.map { |text| text.upcase }
