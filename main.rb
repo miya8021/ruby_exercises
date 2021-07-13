@@ -48,3 +48,10 @@ p ary.take(3)
 # 9:rubyの配列内の要素を大文字で表示するの回答
 ary = ["python", "ruby", "java"]
 p ary.map { |text| text.upcase }
+
+# 10:rubyの配列へ繰り返し処理を実行する
+array =["牛丼","豚丼","カツ丼"]
+array.each_with_index  do |array,i|
+  #ここに処理を記載
+	puts "#{i+1}:#{array}"
+end
