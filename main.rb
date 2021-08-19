@@ -63,4 +63,4 @@ p array.find_all { |n| n % 3 == 0 }
 
 # 12:rubyの配列で真の値を取得するの回答
 
-oo
+ruby
