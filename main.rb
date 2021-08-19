@@ -60,3 +60,7 @@ end
 array = [20, 21, 22, 23, 24, 25, 26]
 p array.select { |n| n % 3 == 0 }
 p array.find_all { |n| n % 3 == 0 }
+
+# 12:rubyの配列で真の値を取得するの回答
+
+oo
